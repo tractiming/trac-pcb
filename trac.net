@@ -1,0 +1,793 @@
+# EESchema Netlist Version 1.1 created  Sat 07 Feb 2015 12:17:40 AM CST
+(
+ ( /5484E76F C1 C1 0.1uF
+  ( 1 N-000019 )
+  ( 2 /power_sht/+3.3V )
+ )
+ ( /548BBC7A C1 C2 0.1uF
+  ( 1 GND )
+  ( 2 N-000030 )
+ )
+ ( /54851966 C1 C3 33pF
+  ( 1 N-000036 )
+  ( 2 GND )
+ )
+ ( /5485198F C1 C4 33pF
+  ( 1 N-000016 )
+  ( 2 GND )
+ )
+ ( /54851992 C1 C5 33pF
+  ( 1 N-000040 )
+  ( 2 GND )
+ )
+ ( /548D180D C1 C6 100nF
+  ( 1 GND )
+  ( 2 N-000022 )
+ )
+ ( /54D56C4B/54D56EB3 $noname$ C7 200uF
+  ( 1 N-000044 )
+  ( 2 GND )
+ )
+ ( /54D56C4B/54D56EB7 $noname$ C8 0.01uF
+  ( 1 N-000051 )
+  ( 2 GND )
+ )
+ ( /54D56C4B/54D56EF9 $noname$ C9 100nF
+  ( 1 GND )
+  ( 2 N-000054 )
+ )
+ ( /54D56C4B/54D56EB2 $noname$ C10 470uF
+  ( 1 /power_sht/+9.75V )
+  ( 2 GND )
+ )
+ ( /54D56C4B/54D56F03 $noname$ C11 200uF
+  ( 1 N-000044 )
+  ( 2 GND )
+ )
+ ( /54D56C4B/54D56EC4 $noname$ C12 200uF
+  ( 1 N-000044 )
+  ( 2 GND )
+ )
+ ( /54D56C4B/54D56F07 $noname$ C13 0.01uF
+  ( 1 N-000041 )
+  ( 2 GND )
+ )
+ ( /54D56C4B/54D56EC0 $noname$ C14 0.01uF
+  ( 1 N-000049 )
+  ( 2 GND )
+ )
+ ( /54D56C4B/54D56F02 $noname$ C15 470uF
+  ( 1 /power_sht/+3.8V )
+  ( 2 GND )
+ )
+ ( /54D56C4B/54D56EC5 $noname$ C16 470uF
+  ( 1 /power_sht/+5.75V )
+  ( 2 GND )
+ )
+ ( /54D56C4B/54D56ED1 $noname$ C17 0.1uF
+  ( 1 N-000053 )
+  ( 2 /power_sht/-5.75V )
+ )
+ ( /54D56C4B/54D56EC7 $noname$ C18 220uF
+  ( 1 N-000044 )
+  ( 2 GND )
+ )
+ ( /54D56C4B/54D56ECA $noname$ C19 0.01uF
+  ( 1 N-000056 )
+  ( 2 /power_sht/-5.75V )
+ )
+ ( /54D56C4B/54D56EFF $noname$ C20 10uF
+  ( 1 /power_sht/+3.3V )
+  ( 2 GND )
+ )
+ ( /54D56C4B/54D56EC6 $noname$ C21 1000uF
+  ( 1 GND )
+  ( 2 /power_sht/-5.75V )
+ )
+ ( /54D59041 LED-3MM D1 LED
+  ( 1 N-000009 )
+  ( 2 N-000010 )
+ )
+ ( /54D59047 LED-3MM D2 LED
+  ( 1 N-000029 )
+  ( 2 N-000011 )
+ )
+ ( /54D58EAC LED-3MM D3 LED
+  ( 1 /power_sht/+3.8V )
+  ( 2 N-000015 )
+ )
+ ( /548D16C1 LED-3MM D4 LED
+  ( 1 /power_sht/+3.8V )
+  ( 2 N-000005 )
+ )
+ ( /54D56C4B/54D56EB6 $noname$ D5 DIODESCH
+  ( 1 GND )
+  ( 2 N-000057 )
+ )
+ ( /54D56C4B/54D56F06 $noname$ D6 DIODESCH
+  ( 1 GND )
+  ( 2 N-000061 )
+ )
+ ( /54D56C4B/54D56EC1 $noname$ D7 DIODESCH
+  ( 1 GND )
+  ( 2 N-000050 )
+ )
+ ( /54D56C4B/54D56ECB $noname$ D8 DIODESCH
+  ( 1 /power_sht/-5.75V )
+  ( 2 N-000059 )
+ )
+ ( /54D56C4B/54D56EB4 $noname$ L1 50uH
+  ( 1 /power_sht/+9.75V )
+  ( 2 N-000057 )
+ )
+ ( /54D56C4B/54D56F04 $noname$ L2 50uH
+  ( 1 /power_sht/+3.8V )
+  ( 2 N-000061 )
+ )
+ ( /54D56C4B/54D56EC3 $noname$ L3 50uH
+  ( 1 /power_sht/+5.75V )
+  ( 2 N-000050 )
+ )
+ ( /54D56C4B/54D56ECC $noname$ L4 25uH
+  ( 1 GND )
+  ( 2 N-000059 )
+ )
+ ( /5484E88C TO92 Q1 PN2222A
+  ( 2 N-000037 )
+  ( 3 N-000020 )
+ )
+ ( /54D58EB1 TO92 Q2 PN2222A
+  ( 2 N-000006 )
+  ( 3 N-000008 )
+ )
+ ( /548D1664 TO92 Q3 PN2222A
+  ( 2 N-000003 )
+  ( 3 N-000004 )
+ )
+ ( /548BB927 $noname$ R1 2.2k
+  ( 1 /power_sht/+3.3V )
+  ( 2 N-000023 )
+ )
+ ( /54D59098 $noname$ R2 1k
+  ( 1 N-000010 )
+  ( 2 GND )
+ )
+ ( /548D12D6 $noname$ R3 1k
+  ( 1 N-000035 )
+  ( 2 N-000028 )
+ )
+ ( /54D590B5 $noname$ R4 1k
+  ( 1 N-000011 )
+  ( 2 GND )
+ )
+ ( /548D12FE $noname$ R5 1k
+  ( 1 N-000002 )
+  ( 2 N-000032 )
+ )
+ ( /5484E85B $noname$ R6 4.7k
+  ( 1 N-000037 )
+  ( 2 N-000031 )
+ )
+ ( /548D13A8 $noname$ R7 3.6k
+  ( 1 GND )
+  ( 2 N-000035 )
+ )
+ ( /548D1340 $noname$ R8 3.6k
+  ( 1 GND )
+  ( 2 N-000002 )
+ )
+ ( /5484E86E $noname$ R9 47k
+  ( 1 GND )
+  ( 2 N-000037 )
+ )
+ ( /54D58EB0 $noname$ R10 4.7k
+  ( 1 N-000006 )
+  ( 2 N-000007 )
+ )
+ ( /5484FA73 $noname$ R11 22
+  ( 1 N-000026 )
+  ( 2 N-000040 )
+ )
+ ( /54D58EAE $noname$ R12 47k
+  ( 1 GND )
+  ( 2 N-000006 )
+ )
+ ( /54852559 $noname$ R13 22
+  ( 1 N-000017 )
+  ( 2 N-000016 )
+ )
+ ( /54D58EAD $noname$ R14 2.2k
+  ( 1 N-000008 )
+  ( 2 N-000015 )
+ )
+ ( /548D1665 $noname$ R15 4.7k
+  ( 1 N-000003 )
+  ( 2 N-000001 )
+ )
+ ( /5485252D $noname$ R16 22
+  ( 1 N-000025 )
+  ( 2 N-000036 )
+ )
+ ( /548D1A72 $noname$ R17 15k
+  ( 1 N-000022 )
+  ( 2 N-000036 )
+ )
+ ( /548D166F $noname$ R18 47k
+  ( 1 GND )
+  ( 2 N-000003 )
+ )
+ ( /548D168A $noname$ R19 2.2k
+  ( 1 N-000004 )
+  ( 2 N-000005 )
+ )
+ ( /54D56C4B/54D56EB8 $noname$ R20 2.7k
+  ( 1 N-000052 )
+  ( 2 N-000051 )
+ )
+ ( /54D56C4B/54D56EBB $noname$ R21 1.6k
+  ( 1 /power_sht/+9.75V )
+  ( 2 N-000058 )
+ )
+ ( /54D56C4B/54D56EBA $noname$ R22 2.21k
+  ( 1 N-000058 )
+  ( 2 GND )
+ )
+ ( /54D56C4B/54D56F08 $noname$ R23 2.7k
+  ( 1 N-000046 )
+  ( 2 N-000041 )
+ )
+ ( /54D56C4B/54D56EBF $noname$ R24 2.7k
+  ( 1 N-000048 )
+  ( 2 N-000049 )
+ )
+ ( /54D56C4B/54D56F0B $noname$ R25 1.6k
+  ( 1 /power_sht/+3.8V )
+  ( 2 N-000060 )
+ )
+ ( /54D56C4B/54D56F0A $noname$ R26 2.21k
+  ( 1 N-000060 )
+  ( 2 GND )
+ )
+ ( /54D56C4B/54D56EBC $noname$ R27 1.6k
+  ( 1 /power_sht/+5.75V )
+  ( 2 N-000045 )
+ )
+ ( /54D56C4B/54D56EBD $noname$ R28 2.21k
+  ( 1 N-000045 )
+  ( 2 GND )
+ )
+ ( /54D56C4B/54D56ECE $noname$ R29 1.6k
+  ( 1 N-000059 )
+  ( 2 N-000056 )
+ )
+ ( /54D56C4B/54D56ECD $noname$ R30 1.6k
+  ( 1 N-000056 )
+  ( 2 N-000055 )
+ )
+ ( /54D56C4B/54D56EFC $noname$ R31 3k
+  ( 1 /power_sht/+3.3V )
+  ( 2 N-000043 )
+ )
+ ( /54D56C4B/54D56EFD $noname$ R32 1.8k
+  ( 1 N-000043 )
+  ( 2 GND )
+ )
+ ( /54D56C4B/54D56EC8 $noname$ R33 1.6k
+  ( 1 GND )
+  ( 2 N-000055 )
+ )
+ ( /54D56C4B/54D56EC9 $noname$ R34 1.6k
+  ( 1 N-000055 )
+  ( 2 /power_sht/-5.75V )
+ )
+ ( /5484F9E3 $noname$ S1 SIM
+  ( 1 N-000022 )
+  ( 2 N-000040 )
+  ( 3 N-000016 )
+  ( 6 N-000036 )
+  ( 8 GND )
+ )
+ ( /54D56C4B/54D56EF8 $noname$ SW1 SW_PUSH
+  ( 1 GND )
+  ( 2 N-000042 )
+ )
+ ( /548BB8E8 $noname$ U1 PICKIT3
+  ( 1 N-000023 )
+  ( 2 /power_sht/+3.3V )
+  ( 3 GND )
+  ( 4 N-000034 )
+  ( 5 N-000033 )
+ )
+ ( /548BB68F $noname$ U2 PIC32MX250F128B
+  ( 1 N-000023 )
+  ( 2 N-000032 )
+  ( 4 N-000034 )
+  ( 5 N-000033 )
+  ( 8 GND )
+  ( 9 N-000031 )
+  ( 11 N-000029 )
+  ( 12 N-000028 )
+  ( 13 /power_sht/+3.3V )
+  ( 14 /power_sht/~INT )
+  ( 15 /power_sht/+3.3V )
+  ( 16 N-000019 )
+  ( 17 N-000018 )
+  ( 18 N-000024 )
+  ( 19 GND )
+  ( 20 N-000030 )
+  ( 23 /power_sht/+3.3V )
+  ( 26 N-000009 )
+  ( 27 GND )
+  ( 28 /power_sht/+3.3V )
+ )
+ ( /548BBAC1 $noname$ U3 MAX232_BRD
+  ( 1 /power_sht/+3.3V )
+  ( 2 GND )
+  ( 3 N-000018 )
+  ( 4 N-000024 )
+ )
+ ( /548BD337 $noname$ U4 UC15_CONN
+  ( 1 /power_sht/+3.8V )
+  ( 2 GND )
+  ( 3 /power_sht/+3.8V )
+  ( 4 GND )
+  ( 5 /power_sht/+3.8V )
+  ( 6 GND )
+  ( 7 /power_sht/+3.8V )
+  ( 8 GND )
+  ( 9 /power_sht/+3.8V )
+  ( 10 GND )
+  ( 16 N-000001 )
+  ( 17 N-000020 )
+  ( 19 N-000007 )
+  ( 25 N-000022 )
+  ( 27 N-000026 )
+  ( 29 N-000025 )
+  ( 31 N-000017 )
+  ( 41 N-000002 )
+  ( 43 N-000035 )
+ )
+ ( /548DBFE6 $noname$ U5 ALIEN_PWR
+  ( ~ /power_sht/+9.75V )
+ )
+ ( /54D56C4B/54D57921 $noname$ U6 LT1176_CN8
+  ( 1 N-000044 )
+  ( 3 GND )
+  ( 4 N-000058 )
+  ( 5 N-000047 )
+  ( 7 N-000052 )
+  ( 8 N-000057 )
+ )
+ ( /54D56C4B/54D56EFB $noname$ U7 LTC2951-1
+  ( 1 N-000044 )
+  ( 2 N-000042 )
+  ( 3 N-000054 )
+  ( 4 GND )
+  ( 5 /power_sht/~INT )
+  ( 6 N-000047 )
+ )
+ ( /54D56C4B/54D578AF $noname$ U8 LT1074CT7
+  ( 1 N-000044 )
+  ( 4 GND )
+  ( 5 N-000060 )
+  ( 6 N-000046 )
+  ( 7 N-000047 )
+ )
+ ( /54D56C4B/54D57997 $noname$ U9 LT1074CT7
+  ( 1 N-000044 )
+  ( 4 GND )
+  ( 5 N-000045 )
+  ( 6 N-000048 )
+  ( 7 N-000047 )
+ )
+ ( /54D56C4B/54D56ED0 $noname$ U10 LT1176_CN8
+  ( 1 N-000044 )
+  ( 3 /power_sht/-5.75V )
+  ( 4 N-000055 )
+  ( 5 N-000047 )
+  ( 7 N-000053 )
+  ( 8 N-000059 )
+ )
+ ( /54D56C4B/54D56F00 $noname$ U11 LT1965
+  ( ~ /power_sht/+3.3V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ CP*
+ SM*
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ CP*
+ SM*
+$endlist
+$component C11
+ CP*
+ SM*
+$endlist
+$component C12
+ CP*
+ SM*
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ CP*
+ SM*
+$endlist
+$component C16
+ CP*
+ SM*
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C18
+ CP*
+ SM*
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component C20
+ CP*
+ SM*
+$endlist
+$component C21
+ CP*
+ SM*
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component D6
+ D?
+ S*
+$endlist
+$component D7
+ D?
+ S*
+$endlist
+$component D8
+ D?
+ S*
+$endlist
+$component Q1
+ TO92*
+$endlist
+$component Q2
+ TO92*
+$endlist
+$component Q3
+ TO92*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R22
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R23
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R24
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R25
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R26
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R27
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R28
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R29
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R30
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R31
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R32
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R33
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R34
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
