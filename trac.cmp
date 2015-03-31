@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Sun 22 Mar 2015 09:19:57 PM CDT
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Mon 30 Mar 2015 06:17:50 PM CDT
 
 BeginCmp
 TimeStamp = /5484E76F;
@@ -52,7 +52,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54D56C4B/54D56EB3;
 Reference = C8;
-ValeurCmp = 200uF;
+ValeurCmp = 100uF;
 IdModule  = C2V10;
 EndCmp
 
@@ -162,7 +162,7 @@ IdModule  = LED-3MM;
 EndCmp
 
 BeginCmp
-TimeStamp = /54D975D2;
+TimeStamp = /5511E93B;
 Reference = D3;
 ValeurCmp = BAS16;
 IdModule  = SOT23;
@@ -578,7 +578,7 @@ BeginCmp
 TimeStamp = /54D56C4B/54D56EFB;
 Reference = U7;
 ValeurCmp = LTC2951-1;
-IdModule  = linear-technology-2-TSOT23-8;
+IdModule  = TSOT23-8;
 EndCmp
 
 BeginCmp
@@ -606,7 +606,7 @@ BeginCmp
 TimeStamp = /54D56C4B/54D56F00;
 Reference = U11;
 ValeurCmp = LT1965;
-IdModule  = linear-technology-2-MSOP8;
+IdModule  = DPAK5;
 EndCmp
 
 EndListe

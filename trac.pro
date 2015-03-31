@@ -1,6 +1,6 @@
-update=Sun 22 Mar 2015 09:20:10 PM CDT
+update=Mon 30 Mar 2015 05:44:56 PM CDT
 version=1
-last_client=kicad
+last_client=pcbnew
 [eeschema]
 version=1
 LibDir=lib
@@ -66,6 +66,13 @@ LibName30=valves
 LibName31=trac
 LibName32=linear-technology-2
 LibName33=dil40
+[general]
+version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=320
@@ -82,8 +89,9 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=
+LastNetListRead=trac.net
 [pcbnew/libraries]
+LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -97,11 +105,3 @@ LibName10=pga_sockets
 LibName11=valves
 LibName12=mod/trac
 LibName13=mod/linear-technology-2
-LibDir=
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
-[general]
-version=1

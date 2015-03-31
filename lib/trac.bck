@@ -1,4 +1,9 @@
-EESchema-DOCLIB  Version 2.0  Date: Mon 09 Feb 2015 09:10:02 PM CST
+EESchema-DOCLIB  Version 2.0  Date: Tue 24 Mar 2015 05:42:24 PM CDT
+#
+$CMP BAS16
+D Diode simple
+K DEV DIODE
+$ENDCMP
 #
 $CMP PIC32MX250F128B
 D FLASH-Based 8-Bit CMOS Microcontroller (TQFP package)
