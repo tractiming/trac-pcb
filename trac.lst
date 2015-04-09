@@ -1,175 +1,183 @@
-eeschema (2012-apr-16-27)-stable  >> Creation date: Fri 06 Feb 2015 11:25:01 PM CST
+eeschema (2011-05-25)-stable  >> Creation date: Wed 08 Apr 2015 08:21:58 PM CDT
 
 #Cmp ( order = Reference )
-| C1         0.1uF       
-| C2         0.1uF       
-| C3         33pF        
-| C4         33pF        
-| C5         33pF        
-| C6         100nF       
-| C7         200uF       
-| C8         0.01uF      
-| C9         100nF       
-| C10        470uF       
-| C11        200uF       
-| C12        200uF       
-| C13        0.01uF      
-| C14        0.01uF      
-| C15        470uF       
-| C16        470uF       
-| C17        0.1uF       
-| C18        220uF       
-| C19        0.01uF      
-| C20        10uF        
-| C21        1000uF      
-| D1         LED         
-| D2         LED         
-| D3         LED         
-| D4         LED         
-| D5         DIODESCH    
-| D6         DIODESCH    
-| D7         DIODESCH    
-| D8         DIODESCH    
-| L1         50uH        
-| L2         50uH        
-| L3         50uH        
-| L4         25uH        
-| Q1         PN2222A     
-| Q2         PN2222A     
-| Q3         PN2222A     
-| R1         2.2k        
-| R2         1k          
-| R3         1k          
-| R4         1k          
-| R5         1k          
-| R6         4.7k        
-| R7         3.6k        
-| R8         3.6k        
-| R9         47k         
-| R10        4.7k        
-| R11        22          
-| R12        47k         
-| R13        22          
-| R14        2.2k        
-| R15        4.7k        
-| R16        22          
-| R17        15k         
-| R18        47k         
-| R19        2.2k        
-| R20        2.7k        
-| R21        1.6k        
-| R22        2.21k       
-| R23        2.7k        
-| R24        2.7k        
-| R25        1.6k        
-| R26        2.21k       
-| R27        1.6k        
-| R28        2.21k       
-| R29        1.6k        
-| R30        1.6k        
-| R31        3k          
-| R32        1.8k        
-| R33        1.6k        
-| R34        1.6k        
-| S1         SIM         
-| SW1        SW_PUSH     
-| U1         PICKIT3     
-| U2         PIC32MX250F128B
-| U3         MAX232_BRD  
-| U4         UC15_CONN   
-| U5         ALIEN_PWR   
-| U6         LT1176_CN8  
-| U7         LTC2951-1   
-| U8         LT1074CT7   
-| U9         LT1074CT7   
-| U10        LT1176_CN8  
-| U11        LT1965      
+| C1         0.1uF       ;             
+| C2         0.1uF       ;             
+| C3         10uF        ;             
+| C4         33pF        ;             
+| C5         33pF        ;             
+| C6         33pF        ;             
+| C7         100nF       ;             
+| C8         100uF       ;             
+| C9         0.01uF      ;             
+| C10        100nF       ;             
+| C11        470uF       ;             
+| C12        200uF       ;             
+| C13        200uF       ;             
+| C14        0.01uF      ;             
+| C15        0.01uF      ;             
+| C16        470uF       ;             
+| C17        470uF       ;             
+| C18        0.1uF       ;             
+| C19        220uF       ;             
+| C20        1000uF      ;             
+| C21        10uF        ;             
+| D1         LED         ;             
+| D2         LED         ;             
+| D3         BAS16       ;             
+| D4         LED         ;             
+| D5         LED         ;             
+| D6         DIODESCH    ;             
+| D7         DIODESCH    ;             
+| D8         DIODESCH    ;             
+| D9         DIODESCH    ;             
+| J1         DB9         ;             
+| L1         100uH       ;             
+| L2         50uH        ;             
+| L3         50uH        ;             
+| L4         25uH        ;             
+| P1         CONN_2      ;             
+| Q1         NPN         ;             
+| Q2         NPN         ;             
+| Q3         NPN         ;             
+| R1         2.2k        ;             
+| R2         1k          ;             
+| R3         1k          ;             
+| R4         1k          ;             
+| R5         1k          ;             
+| R6         4.7k        ;             
+| R7         10k         ;             
+| R8         3.6k        ;             
+| R9         3.6k        ;             
+| R10        47k         ;             
+| R11        10k         ;             
+| R12        4.7k        ;             
+| R13        22          ;             
+| R14        47k         ;             
+| R15        22          ;             
+| R16        2.2k        ;             
+| R17        4.7k        ;             
+| R18        22          ;             
+| R19        15k         ;             
+| R20        47k         ;             
+| R21        2.2k        ;             
+| R22        2.7k        ;             
+| R23        4.99k       ;             
+| R24        2.21k       ;             
+| R25        2.61k       ;             
+| R26        2.7k        ;             
+| R27        2.7k        ;             
+| R28        1.6k        ;             
+| R29        2.21k       ;             
+| R30        3.57k       ;             
+| R31        2.21k       ;             
+| R32        3.57k       ;             
+| R33        2.21k       ;             
+| R34        4.99k       ;             
+| R35        2.8k        ;             
+| S1         SIM         ;             
+| SW1        SW_PUSH     ;             
+| U1         PICKIT3     ;             
+| U2         PIC32MX250F128B;             
+| U3         IMD2AT108   ;             
+| U4         UC15_CONN   ;             
+| U5         ALIEN_PWR   ;             
+| U6         LT1176_CN8  ;             
+| U7         LTC2951-1   ;             
+| U8         LT1074CT7   ;             
+| U9         LT1074CT7   ;             
+| U10        LT1176_CN8  ;             
+| U11        LT1965      ;             
 #End Cmp
 
 #Cmp ( order = Value )
-| 0.01uF       C8        
-| 0.01uF       C13       
-| 0.01uF       C14       
-| 0.01uF       C19       
-| 0.1uF        C1        
-| 0.1uF        C2        
-| 0.1uF        C17       
-| 1.6k         R21       
-| 1.6k         R25       
-| 1.6k         R27       
-| 1.6k         R29       
-| 1.6k         R30       
-| 1.6k         R33       
-| 1.6k         R34       
-| 1.8k         R32       
-| 1000uF       C21       
-| 100nF        C6        
-| 100nF        C9        
-| 10uF         C20       
-| 15k          R17       
-| 1k           R2        
-| 1k           R3        
-| 1k           R4        
-| 1k           R5        
-| 2.21k        R22       
-| 2.21k        R26       
-| 2.21k        R28       
-| 2.2k         R1        
-| 2.2k         R14       
-| 2.2k         R19       
-| 2.7k         R20       
-| 2.7k         R23       
-| 2.7k         R24       
-| 200uF        C7        
-| 200uF        C11       
-| 200uF        C12       
-| 22           R11       
-| 22           R13       
-| 22           R16       
-| 220uF        C18       
-| 25uH         L4        
-| 3.6k         R7        
-| 3.6k         R8        
-| 33pF         C3        
-| 33pF         C4        
-| 33pF         C5        
-| 3k           R31       
-| 4.7k         R6        
-| 4.7k         R10       
-| 4.7k         R15       
-| 470uF        C10       
-| 470uF        C15       
-| 470uF        C16       
-| 47k          R9        
-| 47k          R12       
-| 47k          R18       
-| 50uH         L1        
-| 50uH         L2        
-| 50uH         L3        
-| ALIEN_PWR    U5        
-| DIODESCH     D5        
-| DIODESCH     D6        
-| DIODESCH     D7        
-| DIODESCH     D8        
-| LED          D1        
-| LED          D2        
-| LED          D3        
-| LED          D4        
-| LT1074CT7    U8        
-| LT1074CT7    U9        
-| LT1176_CN8   U6        
-| LT1176_CN8   U10       
-| LT1965       U11       
-| LTC2951-1    U7        
-| MAX232_BRD   U3        
-| PIC32MX250F128B U2        
-| PICKIT3      U1        
-| PN2222A      Q1        
-| PN2222A      Q2        
-| PN2222A      Q3        
-| SIM          S1        
-| SW_PUSH      SW1       
-| UC15_CONN    U4        
+| 0.01uF       C9        ;             
+| 0.01uF       C14       ;             
+| 0.01uF       C15       ;             
+| 0.1uF        C1        ;             
+| 0.1uF        C2        ;             
+| 0.1uF        C18       ;             
+| 1.6k         R28       ;             
+| 1000uF       C20       ;             
+| 100nF        C7        ;             
+| 100nF        C10       ;             
+| 100uF        C8        ;             
+| 100uH        L1        ;             
+| 10k          R7        ;             
+| 10k          R11       ;             
+| 10uF         C3        ;             
+| 10uF         C21       ;             
+| 15k          R19       ;             
+| 1k           R2        ;             
+| 1k           R3        ;             
+| 1k           R4        ;             
+| 1k           R5        ;             
+| 2.21k        R24       ;             
+| 2.21k        R29       ;             
+| 2.21k        R31       ;             
+| 2.21k        R33       ;             
+| 2.2k         R1        ;             
+| 2.2k         R16       ;             
+| 2.2k         R21       ;             
+| 2.61k        R25       ;             
+| 2.7k         R22       ;             
+| 2.7k         R26       ;             
+| 2.7k         R27       ;             
+| 2.8k         R35       ;             
+| 200uF        C12       ;             
+| 200uF        C13       ;             
+| 22           R13       ;             
+| 22           R15       ;             
+| 22           R18       ;             
+| 220uF        C19       ;             
+| 25uH         L4        ;             
+| 3.57k        R30       ;             
+| 3.57k        R32       ;             
+| 3.6k         R8        ;             
+| 3.6k         R9        ;             
+| 33pF         C4        ;             
+| 33pF         C5        ;             
+| 33pF         C6        ;             
+| 4.7k         R6        ;             
+| 4.7k         R12       ;             
+| 4.7k         R17       ;             
+| 4.99k        R23       ;             
+| 4.99k        R34       ;             
+| 470uF        C11       ;             
+| 470uF        C16       ;             
+| 470uF        C17       ;             
+| 47k          R10       ;             
+| 47k          R14       ;             
+| 47k          R20       ;             
+| 50uH         L2        ;             
+| 50uH         L3        ;             
+| ALIEN_PWR    U5        ;             
+| BAS16        D3        ;             
+| CONN_2       P1        ;             
+| DB9          J1        ;             
+| DIODESCH     D6        ;             
+| DIODESCH     D7        ;             
+| DIODESCH     D8        ;             
+| DIODESCH     D9        ;             
+| IMD2AT108    U3        ;             
+| LED          D1        ;             
+| LED          D2        ;             
+| LED          D4        ;             
+| LED          D5        ;             
+| LT1074CT7    U8        ;             
+| LT1074CT7    U9        ;             
+| LT1176_CN8   U6        ;             
+| LT1176_CN8   U10       ;             
+| LT1965       U11       ;             
+| LTC2951-1    U7        ;             
+| NPN          Q1        ;             
+| NPN          Q2        ;             
+| NPN          Q3        ;             
+| PIC32MX250F128B U2        ;             
+| PICKIT3      U1        ;             
+| SIM          S1        ;             
+| SW_PUSH      SW1       ;             
+| UC15_CONN    U4        ;             
 #End Cmp
 
 #End List

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Mon 30 Mar 2015 06:17:50 PM CDT
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 02 Apr 2015 09:35:05 PM CDT
 
 BeginCmp
 TimeStamp = /5484E76F;
@@ -253,24 +253,24 @@ IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /5484E88C;
+TimeStamp = /551DEE94;
 Reference = Q1;
-ValeurCmp = PN2222A;
-IdModule  = TO92;
+ValeurCmp = NPN;
+IdModule  = SOT23-3;
 EndCmp
 
 BeginCmp
-TimeStamp = /54D58EB1;
+TimeStamp = /551DEEBC;
 Reference = Q2;
-ValeurCmp = PN2222A;
-IdModule  = TO92;
+ValeurCmp = NPN;
+IdModule  = SOT23-3;
 EndCmp
 
 BeginCmp
-TimeStamp = /548D1664;
+TimeStamp = /551DEEB6;
 Reference = Q3;
-ValeurCmp = PN2222A;
-IdModule  = TO92;
+ValeurCmp = NPN;
+IdModule  = SOT23-3;
 EndCmp
 
 BeginCmp

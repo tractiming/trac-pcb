@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 01 Apr 2015 09:04:18 PM CDT
+EESchema Schematic File Version 2  date Wed 08 Apr 2015 08:21:17 PM CDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 2
 Title "RFID Communication Board"
-Date "24 mar 2015"
+Date "7 apr 2015"
 Rev "0"
 Comp "TRAC"
 Comment1 ""
@@ -47,6 +47,33 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L NPN Q2
+U 1 1 551DEEBC
+P 8000 5900
+F 0 "Q2" H 8000 5750 50  0000 R CNN
+F 1 "NPN" H 8000 6050 50  0000 R CNN
+	1    8000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN Q3
+U 1 1 551DEEB6
+P 9100 6500
+F 0 "Q3" H 9100 6350 50  0000 R CNN
+F 1 "NPN" H 9100 6650 50  0000 R CNN
+	1    9100 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN Q1
+U 1 1 551DEE94
+P 4850 4350
+F 0 "Q1" H 4850 4200 50  0000 R CNN
+F 1 "NPN" H 4850 4500 50  0000 R CNN
+	1    4850 4350
+	1    0    0    -1  
+$EndComp
 $Comp
 L BAS16 D3
 U 1 1 5511E93B
@@ -66,16 +93,16 @@ Wire Wire Line
 	3100 1300 3100 750 
 Connection ~ 1650 1300
 Wire Wire Line
-	1650 1300 1650 3150
+	1650 3150 1650 1300
 Connection ~ 3100 1300
 Wire Wire Line
-	4100 1500 4100 1300
+	4100 1300 4100 1500
 Wire Wire Line
 	4350 2100 3950 2100
 Wire Wire Line
 	3950 2100 3950 3150
 Wire Wire Line
-	5700 2450 5800 2450
+	5800 2450 5700 2450
 Connection ~ 5200 1900
 Wire Wire Line
 	5050 1900 6100 1900
@@ -85,7 +112,7 @@ Wire Wire Line
 	4200 3350 5950 3350
 Connection ~ 4100 2000
 Wire Wire Line
-	2250 3250 2100 3250
+	2100 3250 2250 3250
 Wire Wire Line
 	1550 4050 2250 4050
 Wire Wire Line
@@ -95,7 +122,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 5400 3650 5300
 Wire Wire Line
-	3650 5900 3650 6000
+	3650 6000 3650 5900
 Wire Wire Line
 	3650 4900 3650 4750
 Wire Wire Line
@@ -106,11 +133,11 @@ Wire Wire Line
 	5850 6500 5850 4450
 Connection ~ 7350 2850
 Wire Wire Line
-	7350 2850 10800 2850
+	10800 2850 7350 2850
 Wire Wire Line
-	10800 2850 10800 4600
+	10800 4600 10800 2850
 Wire Wire Line
-	10800 4600 8100 4600
+	8100 4600 10800 4600
 Wire Wire Line
 	7550 6200 7450 6200
 Connection ~ 7450 5900
@@ -136,7 +163,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 4350 3550 4350
 Wire Wire Line
-	10300 4150 10300 4300
+	10300 4300 10300 4150
 Connection ~ 2100 4650
 Wire Wire Line
 	2100 4850 2100 4550
@@ -188,12 +215,12 @@ Wire Wire Line
 	4650 3550 4650 3450
 Connection ~ 7350 3250
 Wire Wire Line
-	7150 3250 7350 3250
+	7350 3250 7150 3250
 Connection ~ 7350 3050
 Wire Wire Line
 	7350 3050 7150 3050
 Wire Wire Line
-	7150 3350 7350 3350
+	7350 3350 7150 3350
 Wire Wire Line
 	4300 4350 4650 4350
 Connection ~ 2100 3050
@@ -254,7 +281,7 @@ Wire Wire Line
 	9050 4100 9050 3850
 Connection ~ 9050 3850
 Wire Wire Line
-	10300 4300 8850 4300
+	8850 4300 10300 4300
 Wire Wire Line
 	8850 4100 8850 3400
 Wire Wire Line
@@ -274,9 +301,9 @@ Wire Wire Line
 Wire Wire Line
 	10300 3550 10300 3750
 Wire Wire Line
-	7650 1050 7350 1050
+	7350 1050 7650 1050
 Wire Wire Line
-	7350 1050 7350 3350
+	7350 3350 7350 1050
 Wire Wire Line
 	3550 3050 3850 3050
 Wire Wire Line
@@ -293,9 +320,9 @@ Wire Wire Line
 Wire Wire Line
 	3950 4650 3950 4750
 Wire Wire Line
-	3950 5750 3950 6000
+	3950 6000 3950 5750
 Wire Wire Line
-	3950 6000 3650 6000
+	3650 6000 3950 6000
 Wire Wire Line
 	3950 5250 3950 5150
 Wire Wire Line
@@ -322,9 +349,9 @@ Wire Wire Line
 Wire Wire Line
 	5200 2500 5200 2400
 Wire Wire Line
-	5050 1750 5800 1750
+	5800 1750 5050 1750
 Wire Wire Line
-	5800 1750 5800 2450
+	5800 2450 5800 1750
 Wire Wire Line
 	6100 2100 5800 2100
 Connection ~ 5800 2100
@@ -338,11 +365,11 @@ Wire Wire Line
 Wire Wire Line
 	3700 900  7650 900 
 Wire Wire Line
-	1300 3450 1300 1300
+	1300 1300 1300 3450
 Wire Wire Line
-	1300 1300 4100 1300
+	4100 1300 1300 1300
 Wire Wire Line
-	2100 3250 2100 1300
+	2100 1300 2100 3250
 Connection ~ 2100 1300
 Wire Wire Line
 	4700 2250 4700 3050
@@ -463,16 +490,6 @@ F 0 "D1" H 3650 5200 50  0000 C CNN
 F 1 "LED" H 3650 5000 50  0000 C CNN
 	1    3650 5100
 	0    1    1    0   
-$EndComp
-$Comp
-L PN2222A Q2
-U 1 1 54D58EB1
-P 8000 5900
-F 0 "Q2" H 8000 5752 40  0000 R CNN
-F 1 "PN2222A" H 8450 5950 40  0000 R CNN
-F 2 "TO92" H 8300 5900 29  0000 C CNN
-	1    8000 5900
-	1    0    0    -1  
 $EndComp
 $Comp
 L R R12
@@ -611,16 +628,6 @@ F 0 "R17" V 8380 6500 50  0000 C CNN
 F 1 "4.7k" V 8300 6500 50  0000 C CNN
 	1    8300 6500
 	0    1    1    0   
-$EndComp
-$Comp
-L PN2222A Q3
-U 1 1 548D1664
-P 9100 6500
-F 0 "Q3" H 9100 6352 40  0000 R CNN
-F 1 "PN2222A" H 9550 6550 40  0000 R CNN
-F 2 "TO92" H 9400 6500 29  0000 C CNN
-	1    9100 6500
-	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR07
@@ -818,16 +825,6 @@ P 4950 4800
 F 0 "#PWR012" H 4950 4800 30  0001 C CNN
 F 1 "GND" H 4950 4730 30  0001 C CNN
 	1    4950 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L PN2222A Q1
-U 1 1 5484E88C
-P 4850 4350
-F 0 "Q1" H 4850 4202 40  0000 R CNN
-F 1 "PN2222A" H 5300 4450 40  0000 R CNN
-F 2 "TO92" H 5150 4400 29  0000 C CNN
-	1    4850 4350
 	1    0    0    -1  
 $EndComp
 $Comp
