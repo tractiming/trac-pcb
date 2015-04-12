@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 02 Apr 2015 09:35:05 PM CDT
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Sat 11 Apr 2015 12:58:18 PM CDT
 
 BeginCmp
 TimeStamp = /5484E76F;
@@ -585,14 +585,14 @@ BeginCmp
 TimeStamp = /54D56C4B/54D578AF;
 Reference = U8;
 ValeurCmp = LT1074CT7;
-IdModule  = LT1074_R7;
+IdModule  = TO220-7;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D56C4B/54D57997;
 Reference = U9;
 ValeurCmp = LT1074CT7;
-IdModule  = LT1074_R7;
+IdModule  = TO220-7;
 EndCmp
 
 BeginCmp

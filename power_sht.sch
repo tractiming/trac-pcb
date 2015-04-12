@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 08 Apr 2015 08:21:17 PM CDT
+EESchema Schematic File Version 2  date Sun 12 Apr 2015 01:02:04 AM CDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 2 2
 Title ""
-Date "7 apr 2015"
+Date "12 apr 2015"
 Rev "0"
 Comp ""
 Comment1 ""
@@ -436,7 +436,7 @@ L CP1 C12
 U 1 1 54D56F03
 P 4500 2700
 F 0 "C12" H 4550 2800 50  0000 L CNN
-F 1 "200uF" H 4550 2600 50  0000 L CNN
+F 1 "100uF" H 4550 2600 50  0000 L CNN
 	1    4500 2700
 	1    0    0    -1  
 $EndComp
@@ -521,7 +521,7 @@ L C C10
 U 1 1 54D56EF9
 P 3000 2550
 F 0 "C10" H 2850 2650 50  0000 L CNN
-F 1 "100nF" H 2750 2450 50  0000 L CNN
+F 1 "0.1uF" H 2750 2450 50  0000 L CNN
 	1    3000 2550
 	-1   0    0    1   
 $EndComp
@@ -629,7 +629,7 @@ L CP1 C13
 U 1 1 54D56EC4
 P 4750 6100
 F 0 "C13" H 4800 6200 50  0000 L CNN
-F 1 "200uF" H 4800 6000 50  0000 L CNN
+F 1 "100uF" H 4800 6000 50  0000 L CNN
 	1    4750 6100
 	1    0    0    -1  
 $EndComp

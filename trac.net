@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Tue 07 Apr 2015 05:18:18 PM CDT
+# EESchema Netlist Version 1.1 created  Sat 11 Apr 2015 10:48:36 PM CDT
 (
  ( /551DEEBC $noname  Q2 NPN {Lib=NPN}
   (    1 GND )
@@ -92,7 +92,7 @@
   (    1 N-000011 )
   (    2 N-000048 )
  )
- ( /548D180D $noname  C7 100nF {Lib=C}
+ ( /548D180D $noname  C7 0.1nF {Lib=C}
   (    1 GND )
   (    2 N-000011 )
  )
@@ -239,6 +239,7 @@
  )
  ( /54D56C4B/54D57997 $noname  U9 LT1074CT7 {Lib=LT1074CT7}
   (    1 N-000054 )
+  (    2 N-000069 )
   (    4 GND )
   (    5 N-000070 )
   (    6 N-000057 )
@@ -254,6 +255,7 @@
  )
  ( /54D56C4B/54D578AF $noname  U8 LT1074CT7 {Lib=LT1074CT7}
   (    1 N-000054 )
+  (    2 N-000051 )
   (    4 GND )
   (    5 N-000056 )
   (    6 N-000055 )
@@ -283,7 +285,7 @@
   (    1 /power_sht/+3.8V )
   (    2 N-000051 )
  )
- ( /54D56C4B/54D56F03 $noname  C12 200uF {Lib=CP1}
+ ( /54D56C4B/54D56F03 $noname  C12 100uF {Lib=CP1}
   (    1 N-000054 )
   (    2 GND )
  )
@@ -318,7 +320,7 @@
   (    5 /power_sht/~INT )
   (    6 N-000068 )
  )
- ( /54D56C4B/54D56EF9 $noname  C10 100nF {Lib=C}
+ ( /54D56C4B/54D56EF9 $noname  C10 0.1uF {Lib=C}
   (    1 GND )
   (    2 N-000063 )
  )
@@ -366,7 +368,7 @@
   (    1 /power_sht/+5.75V )
   (    2 GND )
  )
- ( /54D56C4B/54D56EC4 $noname  C13 200uF {Lib=CP1}
+ ( /54D56C4B/54D56EC4 $noname  C13 100uF {Lib=CP1}
   (    1 N-000054 )
   (    2 GND )
  )
@@ -813,6 +815,7 @@ Net 1 "GND" "GND"
  U4 4
  U6 3
  U2 27
+ U8 4
  C11 2
  P1 2
  U2 8
@@ -824,6 +827,7 @@ Net 1 "GND" "GND"
  Q3 1
  Q1 1
  Q2 1
+ U9 4
  U1 3
  R8 1
  R20 1
@@ -916,8 +920,8 @@ Net 23 "" ""
  D1 2
  R2 1
 Net 24 "" ""
- R4 1
  D2 2
+ R4 1
 Net 25 "" ""
  U2 26
  D1 1
@@ -932,17 +936,17 @@ Net 28 "" ""
  U2 9
  R6 2
 Net 29 "" ""
+ C6 1
  R13 2
  S1 2
- C6 1
 Net 30 "" ""
  U4 31
  R15 1
 Net 31 "/power_sht/+3.8V" "+3.8V"
+ C16 1
  R28 1
  D4 1
  U11 2
- C16 1
  L2 1
  D5 1
  U4 9
@@ -1026,7 +1030,7 @@ Net 50 "" ""
  C14 1
  R26 2
 Net 51 "" ""
- U8 4
+ U8 2
  D7 2
  L2 2
 Net 52 "" ""
@@ -1100,7 +1104,7 @@ Net 68 "" ""
  U10 5
 Net 69 "" ""
  L3 2
- U9 4
+ U9 2
  D8 2
 Net 70 "" ""
  R30 2
