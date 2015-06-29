@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Sun 19 Apr 2015 11:43:23 PM CDT
+PCBNEW-BOARD Version 1 date Sun 19 Apr 2015 11:47:19 PM CDT
 
 # Created by Pcbnew(2011-05-25)-stable
 
@@ -59,7 +59,7 @@ PadSize 700 700
 PadDrill 450
 Pad2MaskClearance 100
 AuxiliaryAxisOrg 0 0
-PcbPlotParams (pcbplotparams (layerselection 283148289) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+PcbPlotParams (pcbplotparams (layerselection 283148289) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue false) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
 $EndSETUP
 
 $EQUIPOT
@@ -4601,14 +4601,14 @@ Po 1000 1500
 $EndPAD
 $EndMODULE  TO220-5
 $MODULE 1pin
-Po 9000 15000 0 15 00200000 55348319 ~~
+Po 9000 15000 0 15 553484AC 55348319 ~~
 Li 1pin
 Cd module 1 pin (ou trou mecanique de percage)
 Kw DEV
 Sc 55348319
 AR 
 Op 0 0 0
-T0 0 -1200 400 400 0 100 N V 21 N "1PIN"
+T0 0 -1200 400 400 0 100 N I 21 N "1PIN"
 T1 0 1100 400 400 0 100 N I 21 N "P***"
 DC 0 0 0 -900 150 21
 $PAD
@@ -4620,14 +4620,14 @@ Po 0 0
 $EndPAD
 $EndMODULE  1pin
 $MODULE 1pin
-Po 9000 75000 0 15 00200000 55348328 ~~
+Po 9000 75000 0 15 553484B3 55348328 ~~
 Li 1pin
 Cd module 1 pin (ou trou mecanique de percage)
 Kw DEV
 Sc 55348328
 AR 
 Op 0 0 0
-T0 0 -1200 400 400 0 100 N V 21 N "1PIN"
+T0 0 -1200 400 400 0 100 N I 21 N "1PIN"
 T1 0 1100 400 400 0 100 N I 21 N "P***"
 DC 0 0 0 -900 150 21
 $PAD
@@ -4639,14 +4639,14 @@ Po 0 0
 $EndPAD
 $EndMODULE  1pin
 $MODULE 1pin
-Po 49000 75000 0 15 00200000 55348331 ~~
+Po 49000 75000 0 15 553484BD 55348331 ~~
 Li 1pin
 Cd module 1 pin (ou trou mecanique de percage)
 Kw DEV
 Sc 55348331
 AR 
 Op 0 0 0
-T0 0 -1200 400 400 0 100 N V 21 N "1PIN"
+T0 0 -1200 400 400 0 100 N I 21 N "1PIN"
 T1 0 1100 400 400 0 100 N I 21 N "P***"
 DC 0 0 0 -900 150 21
 $PAD
@@ -4658,14 +4658,14 @@ Po 0 0
 $EndPAD
 $EndMODULE  1pin
 $MODULE 1pin
-Po 49000 15000 0 15 00200000 55348345 ~~
+Po 49000 15000 0 15 553484C5 55348345 ~~
 Li 1pin
 Cd module 1 pin (ou trou mecanique de percage)
 Kw DEV
 Sc 55348345
 AR 
 Op 0 0 0
-T0 0 -1200 400 400 0 100 N V 21 N "1PIN"
+T0 0 -1200 400 400 0 100 N I 21 N "1PIN"
 T1 0 1100 400 400 0 100 N I 21 N "P***"
 DC 0 0 0 -900 150 21
 $PAD
