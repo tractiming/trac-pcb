@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date "20 apr 2015"
 Rev "0"
@@ -70,7 +70,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 5900 1550 800 
 Wire Wire Line
-	1550 800  1250 800 
+	1250 800  2150 800 
 Connection ~ 1550 4700
 Wire Wire Line
 	1550 4700 1650 4700
@@ -893,4 +893,13 @@ F 3 "" H 3750 6100 60  0001 C CNN
 	1    3750 6100
 	1    0    0    -1  
 $EndComp
+Connection ~ 1550 800 
+Text HLabel 2150 800  2    60   Output ~ 0
+V_BAT
+$Sheet
+S 2000 675  900  250 
+U 55A864C0
+F0 "LED Power Indicator" 60
+F1 "file55A864BF.sch" 60
+$EndSheet
 $EndSCHEMATC
