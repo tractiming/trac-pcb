@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Thu 14 Jan 2016 10:38:33 AM PST
+PCBNEW-BOARD Version 1 date Fri 15 Jan 2016 10:42:18 AM PST
 
 # Created by Pcbnew(2011-05-25)-stable
 
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11700 8267
 Title ""
-Date "14 jan 2016"
+Date "15 jan 2016"
 Rev ""
 Comp ""
 Comment1 ""
@@ -55,7 +55,7 @@ TextPcbSize 600 800
 EdgeModWidth 150
 TextModSize 600 600
 TextModWidth 120
-PadSize 394 551
+PadSize 787 1181
 PadDrill 0
 Pad2MaskClearance 100
 AuxiliaryAxisOrg 0 0

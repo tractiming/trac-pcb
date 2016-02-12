@@ -6735,17 +6735,17 @@ ENDDRAW
 ENDDEF
 
 #
-# Dev Name: LTC2909CDDB
+# Dev Name: LTC2909CDDB-1
 # Package Name: DFN8
 # Dev Tech: C
 # Dev Prefix: IC
 # Gate count = 2
 #
-DEF LTC2909CDDB IC 0 40 Y Y 2 L N
+DEF LTC2909CDDB-1 IC 0 40 Y Y 2 L N
 # Gate Name: G$2
 # Symbol Name: LTC2909
 F0 "IC" -400 325 50 H V L B
-F1 "LTC2909CDDB" -400 -400 50 H V L B
+F1 "LTC2909CDDB-1" -400 -400 50 H V L B
 F2 "linear-technology-2-DFN8" 0 150 50 H I C C
 DRAW
 P 2 1 0 0 -400 -300 400 -300
@@ -6836,17 +6836,17 @@ ENDDRAW
 ENDDEF
 
 #
-# Dev Name: LTC2909IDDB
+# Dev Name: LTC2909IDDB-1
 # Package Name: DFN8
 # Dev Tech: I
 # Dev Prefix: IC
 # Gate count = 2
 #
-DEF LTC2909IDDB IC 0 40 Y Y 2 L N
+DEF LTC2909IDDB-1 IC 0 40 Y Y 2 L N
 # Gate Name: G$2
 # Symbol Name: LTC2909
 F0 "IC" -400 325 50 H V L B
-F1 "LTC2909IDDB" -400 -400 50 H V L B
+F1 "LTC2909IDDB-1" -400 -400 50 H V L B
 F2 "linear-technology-2-DFN8" 0 150 50 H I C C
 DRAW
 P 2 1 0 0 -400 -300 400 -300
