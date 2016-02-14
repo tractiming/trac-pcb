@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Wed 03 Feb 2016 09:20:37 PM PST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Sat 13 Feb 2016 11:24:28 PM PST
 
 BeginCmp
 TimeStamp = /5484E76F;
@@ -197,10 +197,10 @@ IdModule  = LEDs:LED-3MM;
 EndCmp
 
 BeginCmp
-TimeStamp = /54D56C4B/56A14111/56A176AC;
+TimeStamp = /54D56C4B/56A14111/56BFDFF8;
 Reference = D3;
-ValeurCmp = ZENER;
-IdModule  = Diodes_SMD:SOD-123;
+ValeurCmp = ZENER (5.1V);
+IdModule  = trac-2:SOD-123;
 EndCmp
 
 BeginCmp
@@ -388,7 +388,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54D56C4B/56A14111/56A16BB3;
 Reference = R11;
-ValeurCmp = 8k;
+ValeurCmp = 220;
 IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
@@ -563,7 +563,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54D56C4B/56A14111/56A16B6A;
 Reference = R36;
-ValeurCmp = 10.5k;
+ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0805;
 EndCmp
 

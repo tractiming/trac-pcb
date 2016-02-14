@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name trac)(type Legacy)(uri /home/elliot/trac-all/trac-pcb/mod/legacy/trac.mod)(options "")(descr ""))
+  (lib (name trac-2)(type KiCad)(uri /home/elliot/trac-all/trac-pcb/mod/trac.pretty)(options "")(descr ""))
 )

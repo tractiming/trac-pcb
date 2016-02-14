@@ -10,4 +10,9 @@ D FLASH-Based 8-Bit CMOS Microcontroller (TQFP package)
 K PIC
 $ENDCMP
 #
+$CMP ZENER
+D Diode zener
+K DEV DIODE
+$ENDCMP
+#
 #End Doc Library
