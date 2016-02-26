@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Sat 13 Feb 2016 11:24:28 PM PST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Thu 25 Feb 2016 07:11:16 PM PST
 
 BeginCmp
 TimeStamp = /5484E76F;
@@ -285,13 +285,6 @@ TimeStamp = /54D56C4B/54D97A22;
 Reference = P1;
 ValeurCmp = CONN_2;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
-EndCmp
-
-BeginCmp
-TimeStamp = /569F3765;
-Reference = P2;
-ValeurCmp = CONN_01X04;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
 EndCmp
 
 BeginCmp
@@ -691,6 +684,13 @@ TimeStamp = /54D56C4B/56A14111/56A169A5;
 Reference = U13;
 ValeurCmp = LM393;
 IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56CFE745;
+Reference = U14;
+ValeurCmp = NHDC12832A1Z;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
 EndCmp
 
 EndListe
