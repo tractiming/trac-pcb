@@ -5,6 +5,16 @@ D Diode simple
 K DEV DIODE
 $ENDCMP
 #
+$CMP DIODESCH
+D Diode schottky
+K DEV DIODE
+$ENDCMP
+#
+$CMP DIODESCH1
+D Diode schottky
+K DEV DIODE
+$ENDCMP
+#
 $CMP PIC32MX250F128B
 D FLASH-Based 8-Bit CMOS Microcontroller (TQFP package)
 K PIC

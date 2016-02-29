@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Thu 25 Feb 2016 07:11:16 PM PST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Mon 29 Feb 2016 12:48:02 PM PST
 
 BeginCmp
 TimeStamp = /5484E76F;
@@ -45,14 +45,14 @@ EndCmp
 BeginCmp
 TimeStamp = /548D180D;
 Reference = C7;
-ValeurCmp = 0.1nF;
+ValeurCmp = 0.1uF;
 IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D56C4B/54D56EB3;
 Reference = C8;
-ValeurCmp = 100uF;
+ValeurCmp = 220uF;
 IdModule  = Discret:C2V10;
 EndCmp
 
@@ -80,14 +80,14 @@ EndCmp
 BeginCmp
 TimeStamp = /54D56C4B/54D56F03;
 Reference = C12;
-ValeurCmp = 100uF;
+ValeurCmp = 220uF;
 IdModule  = Discret:C2V10;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D56C4B/54D56EC4;
 Reference = C13;
-ValeurCmp = 100uF;
+ValeurCmp = 220uF;
 IdModule  = Discret:C2V10;
 EndCmp
 
@@ -218,31 +218,31 @@ IdModule  = LEDs:LED-3MM;
 EndCmp
 
 BeginCmp
-TimeStamp = /54D56C4B/54D56EB6;
+TimeStamp = /54D56C4B/56D4F784;
 Reference = D6;
-ValeurCmp = DIODESCH;
-IdModule  = trac:MBR745;
+ValeurCmp = DIODESCH1;
+IdModule  = trac-2:MBR745;
 EndCmp
 
 BeginCmp
-TimeStamp = /54D56C4B/54D56F06;
+TimeStamp = /54D56C4B/56D4E142;
 Reference = D7;
-ValeurCmp = DIODESCH;
-IdModule  = trac:MBR745;
+ValeurCmp = DIODESCH1;
+IdModule  = trac-2:MBR745;
 EndCmp
 
 BeginCmp
-TimeStamp = /54D56C4B/54D56EC1;
+TimeStamp = /54D56C4B/56D4FE46;
 Reference = D8;
-ValeurCmp = DIODESCH;
-IdModule  = trac:MBR745;
+ValeurCmp = DIODESCH1;
+IdModule  = trac-2:MBR745;
 EndCmp
 
 BeginCmp
-TimeStamp = /54D56C4B/54D56ECB;
+TimeStamp = /54D56C4B/56D50213;
 Reference = D9;
-ValeurCmp = DIODESCH;
-IdModule  = trac:MBR745;
+ValeurCmp = DIODESCH1;
+IdModule  = trac-2:MBR745;
 EndCmp
 
 BeginCmp
@@ -570,7 +570,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54D56C4B/56A14111/56A16A35;
 Reference = R38;
-ValeurCmp = 5k;
+ValeurCmp = 4.99k;
 IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
